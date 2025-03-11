@@ -1,0 +1,44 @@
+سلام یک کد سایت html بساز که در اینترنت باز بشه و ازم بپرسه نوع کشور خود را انتخاب کن نوع کشور ( ترکیه وی ای پی و ترکیه طلا و ترکیه نقره) و ازم بپرسه حجم کانفینگ وایرگاد چقدر باشه و ازن بپرسه وایرگارد چند روز کار کنه و وایرگارد کانفینک که میسازه این هارو داشته باشه
+
+
+
+Private Key
+Public Key
+Addresses
+MTU
+Listen port
+DNS Servers
+Public Key
+Pre-shared Key
+Endpoint
+
+در قسمت 
+Endpoint
+و
+Address
+
+
+کد سرور ترکیه زده باشد و کانفینگ هایی که میسازد خیلی قوی باشد
+
+و پورت و بقیه چیز ها هر دفعه تغییر کند 
+
+و در قسمت سرور های dns همیشه که 10.202.10.10 زده باشد
+
+و گزینه وایر بساز داشم و گزینه وایرتو کپی کن وایرتو
+
+و گزینه کپی ابی و گزینه ساخت وایر ابی باشه و بکگراند سیاه باشه و 
+از این مدل کانفینگ ها بدهد و به این ترتیب
+
+[Interface]
+PrivateKey = AIOUaA7f3iBy9NTNYyEWqiFYakrPtTmBdT8cSAIKLb8=
+Address = 185.101.37.19/24
+DNS = 10.202.10.10
+MTU = 1483
+
+[Peer]
+PublicKey = ogT+5ectSIxGf3ODMD4mjGA0XShg0+q8H4rYTD4BSYc=
+PresharedKey = mpiJHlhHX2xPmVqx+SWi21g5OEQHKdrsktAz/B5GidI=
+Endpoint = 185.101.76.255:41269
+PersistentKeepalive = 47
+
+و هر دفعه که میزنیم تغیر کنه وایگارداش
